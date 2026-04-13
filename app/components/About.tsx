@@ -112,6 +112,7 @@ export default function About() {
                 alt="Dyt. Ayşe Yılmaz"
                 width={620}
                 height={820}
+                loading="eager"
                 className="relative z-10 w-80  md:w-2xl object-contain drop-shadow-2xl animate-float"
               />
             </div>
