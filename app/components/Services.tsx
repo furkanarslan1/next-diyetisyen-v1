@@ -75,7 +75,7 @@ export default function Services() {
                 href="https://wa.me/90541111111"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-sm font-semibold text-white bg-white/35 backdrop-blur-md border border-white/30 px-4 py-2 rounded-xl hover:bg-white/55 hover:gap-3 transition-all duration-200 mt-auto w-fit"
+                className="inline-flex items-center gap-1.5 text-sm font-semibold text-white bg-white/35 backdrop-blur-md border border-white/30 px-4 py-2 rounded-xl hover:bg-white/45 hover:gap-3 transition-all duration-200 mt-auto w-fit"
               >
                 Randevu Al
                 <svg
