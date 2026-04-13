@@ -1,4 +1,5 @@
 import About from "./components/About";
+import FAQ from "./components/FAQ";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Stats />
       <WhyUs />
+      <FAQ />
     </div>
   );
 }

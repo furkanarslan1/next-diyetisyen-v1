@@ -26,10 +26,10 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="w-full bg-neutral-700 py-20 px-6 overflow-hidden">
+    <section className="relative w-full bg-green-950 py-20 px-6 overflow-hidden">
       {/* Başlık */}
       <div className="max-w-5xl mx-auto text-center mb-16">
-        <span className="inline-block text-xs font-semibold tracking-widest text-green-600 uppercase mb-3">
+        <span className="inline-block text-xs font-semibold tracking-widest text-green-400 uppercase mb-3">
           Süreç
         </span>
         <h2 className="text-3xl md:text-4xl font-bold text-neutral-100 leading-tight">
@@ -59,7 +59,7 @@ export default function HowItWorks() {
               >
                 {/* İkon + Numara */}
                 <div className="relative">
-                  <div className="flex items-center justify-center w-28 h-28 rounded-full bg-linear-to-br from-green-400 via-emerald-400 to-teal-500 animate-gradient shadow-md shadow-green-200 group-hover:shadow-green-300 group-hover:scale-105 transition-all duration-300">
+                  <div className="flex items-center justify-center w-28 h-28 rounded-full bg-linear-to-br from-green-400 via-emerald-400 to-teal-500 animate-gradient shadow-md shadow-green-900/50 group-hover:shadow-green-800/60 group-hover:scale-105 transition-all duration-300">
                     <Icon size={36} className="text-white" />
                   </div>
                   {/* Adım numarası */}

@@ -71,7 +71,7 @@ export default function Stats() {
   }, []);
 
   return (
-    <section ref={ref} className="w-full bg-white py-20 px-6">
+    <section ref={ref} className="w-full bg-neutral-50 py-20 px-6">
       <div className="max-w-5xl mx-auto flex flex-col gap-12">
         {/* Başlık */}
         <div className="text-center">
