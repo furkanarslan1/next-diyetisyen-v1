@@ -18,7 +18,9 @@ export default function Hero() {
         <h1 className="animate-fade-in-down text-lg font-bold leading-snug md:text-5xl">
           Uzman Diyetisyeninizle
           <br />
-          <span className="text-green-500">Sağlıklı ve Kalıcı</span>
+          <span className="bg-linear-to-r from-green-400 via-emerald-300 to-teal-400 bg-clip-text text-transparent animate-gradient">
+            Sağlıklı ve Kalıcı
+          </span>
           <br className="md:hidden" /> Değişime Başlayın
         </h1>
 
@@ -31,7 +33,7 @@ export default function Hero() {
           href="https://wa.me/90541111111"
           target="_blank"
           rel="noopener noreferrer"
-          className="animate-fade-in-up animate-delay-400 mt-1 rounded-md bg-green-700 px-5 py-2.5 text-xs font-semibold text-white transition-colors duration-300 hover:bg-green-800 md:px-6 md:py-3 md:text-base"
+          className="animate-fade-in-up animate-delay-400 mt-1 rounded-xl bg-linear-to-r from-green-400 via-emerald-400 to-teal-400 animate-gradient px-5 py-2.5 text-xs font-semibold text-white shadow-lg hover:shadow-green-500/40 transition-all duration-300 hover:scale-105 md:px-6 md:py-3 md:text-base"
         >
           Ücretsiz Danışma Al
         </Link>
