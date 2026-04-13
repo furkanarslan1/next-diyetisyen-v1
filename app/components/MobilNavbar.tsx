@@ -16,16 +16,20 @@ export default function MobileNavbar() {
   return (
     <nav className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 md:hidden w-64">
       <div className="relative flex items-center justify-between h-16 px-6 rounded-full bg-neutral-900/95 backdrop-blur-xl border border-white/10 shadow-2xl">
-
         {/* Sol: Mail */}
         <Link
           href="mailto:info@diyetisyen.com"
           className="flex flex-col items-center gap-0.5 group"
         >
           <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 border border-white/10 group-hover:bg-green-500/20 group-hover:border-green-400/40 transition-all duration-200">
-            <Mail size={18} className="text-white group-hover:text-green-300 transition-colors" />
+            <Mail
+              size={18}
+              className="text-white group-hover:text-green-300 transition-colors"
+            />
           </div>
-          <span className="text-[9px] text-white/60 group-hover:text-green-300 transition-colors">Mail</span>
+          <span className="text-[9px] text-white/60 group-hover:text-green-300 transition-colors">
+            Mail
+          </span>
         </Link>
 
         {/* Orta boşluk */}
@@ -37,16 +41,24 @@ export default function MobileNavbar() {
           className="flex flex-col items-center gap-0.5 group"
         >
           <div className="flex items-center justify-center w-10 h-10 rounded-full bg-white/5 border border-white/10 group-hover:bg-green-500/20 group-hover:border-green-400/40 transition-all duration-200">
-            <Phone size={18} className="text-white group-hover:text-green-300 transition-colors" />
+            <Phone
+              size={18}
+              className="text-white group-hover:text-green-300 transition-colors"
+            />
           </div>
-          <span className="text-[9px] text-white/60 group-hover:text-green-300 transition-colors">Ara</span>
+          <span className="text-[9px] text-white/60 group-hover:text-green-300 transition-colors">
+            Ara
+          </span>
         </Link>
 
         {/* Orta: WhatsApp yükseltilmiş */}
         <div className="absolute left-1/2 -translate-x-1/2 -top-6">
           <div className="relative w-14 h-14">
             {/* Ripple halkaları */}
-            <span className="absolute inset-0 rounded-full animate-ping" style={{ backgroundColor: "#25D36640" }} />
+            <span
+              className="absolute inset-0 rounded-full animate-ping"
+              style={{ backgroundColor: "#25D36640" }}
+            />
             <Link
               href="https://wa.me/905111111111?text=Merhaba"
               target="_blank"
@@ -58,7 +70,6 @@ export default function MobileNavbar() {
             </Link>
           </div>
         </div>
-
       </div>
     </nav>
   );
