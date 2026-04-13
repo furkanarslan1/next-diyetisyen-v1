@@ -43,7 +43,7 @@ const contacts = [
   {
     icon: MapPin,
     label: "Adres",
-    value: "Byraklı, İzmir",
+    value: "Bayraklı, İzmir",
     href: "https://www.openstreetmap.org/?mlat=41.0550&mlon=28.8700#map=15/41.0550/28.8700",
     gradient: "from-teal-400 via-green-500 to-emerald-600",
     speed: "animate-gradient-fast",
@@ -87,7 +87,7 @@ export default function Contact() {
                   href={contact.href}
                   target={contact.external ? "_blank" : undefined}
                   rel={contact.external ? "noopener noreferrer" : undefined}
-                  className="group flex flex-row md:flex-col items-center md:items-center gap-4 rounded-2xl bg-white/60 backdrop-blur-md border border-white/80 p-5 shadow-sm hover:shadow-lg hover:bg-white/80 hover:-translate-y-1 transition-all duration-300 md:text-center"
+                  className="group flex flex-row md:flex-col items-center md:items-center gap-4 rounded-2xl backdrop-blur-md border border-white/80 p-5 shadow-sm hover:shadow-lg hover:bg-white/80 hover:-translate-y-1 transition-all duration-300 md:text-center"
                 >
                   {/* İkon */}
                   {contact.whatsapp ? (
@@ -106,10 +106,10 @@ export default function Contact() {
                   )}
                   {/* Metin */}
                   <div className="flex flex-col gap-0.5">
-                    <span className="text-xs font-semibold text-neutral-400 uppercase tracking-wide">
+                    <span className="text-[10px] font-medium text-neutral-400 uppercase tracking-widest">
                       {contact.label}
                     </span>
-                    <span className="text-sm font-semibold text-neutral-800 group-hover:text-green-600 transition-colors duration-200 break-all">
+                    <span className="text-sm font-light tracking-wide text-neutral-600 group-hover:text-green-600 transition-colors duration-200 break-all">
                       {contact.value}
                     </span>
                   </div>

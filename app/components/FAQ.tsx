@@ -40,7 +40,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section className="relative w-full py-20 px-6 bg-green-950 overflow-hidden">
+    <section className="relative w-full py-20 px-6 bg-neutral-900 overflow-hidden">
       {/* Blob arka planlar */}
       <div className="absolute top-0 right-0 w-96 h-96 rounded-full bg-emerald-800/30 blur-3xl animate-blob-2 pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-teal-800/25 blur-3xl animate-blob-1 pointer-events-none" />
