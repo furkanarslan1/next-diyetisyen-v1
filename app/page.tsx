@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
 import Services from "./components/Services";
 import Stats from "./components/Stats";
+import WhyUs from "./components/WhyUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HowItWorks />
       <About />
       <Stats />
+      <WhyUs />
     </div>
   );
 }
