@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="absolute top-0 left-0 z-20 flex w-full items-center justify-between md:justify-around px-6 h-16 text-white">
+      <div className="absolute top-0 left-0 z-20 flex w-full items-center justify-between md:justify-around px-6 h-16 text-white border-b border-gray-400">
         {/* BRAND */}
         <Link href="/" className="flex items-center gap-2">
           {/* <Image
