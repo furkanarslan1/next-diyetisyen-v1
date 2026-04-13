@@ -1,16 +1,13 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 export default function Hero() {
   return (
-    <div className="relative w-full h-[100vw] md:h-[60vw]">
-      <Image
-        src="/diyetisyen-hero.webp"
-        alt="Uzman diyetisyen danışmanlık"
-        fill
-        loading="eager"
-        className="object-cover"
+    <div className="relative w-full h-[100vw] md:h-[60vw] overflow-hidden">
+      {/* Parallax arka plan */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-fixed"
+        style={{ backgroundImage: "url('/diyetisyen-hero-1.webp')" }}
       />
 
       {/* Karartma katmanı */}
@@ -34,7 +31,7 @@ export default function Hero() {
           href="https://wa.me/90541111111"
           target="_blank"
           rel="noopener noreferrer"
-          className="animate-fade-in-up animate-delay-400 mt-1 rounded-md bg-green-500 px-5 py-2.5 text-xs font-semibold text-white transition-colors duration-300 hover:bg-green-600 md:px-6 md:py-3 md:text-base"
+          className="animate-fade-in-up animate-delay-400 mt-1 rounded-md bg-green-700 px-5 py-2.5 text-xs font-semibold text-white transition-colors duration-300 hover:bg-green-800 md:px-6 md:py-3 md:text-base"
         >
           Ücretsiz Danışma Al
         </Link>
