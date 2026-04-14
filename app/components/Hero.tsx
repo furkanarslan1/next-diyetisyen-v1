@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="relative w-full h-[75vh] md:h-[65vw] max-h-[900px] overflow-hidden">
+    <div className="relative w-full h-[75vh] md:h-[65vw] max-h-225 overflow-hidden">
       {/* Arka plan — mobilde bg-fixed kapalı, masaüstünde parallax */}
       <div
         className="absolute inset-0 bg-cover bg-center md:bg-fixed"

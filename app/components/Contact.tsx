@@ -44,7 +44,7 @@ const contacts = [
     icon: MapPin,
     label: "Adres",
     value: "Bayraklı, İzmir",
-    href: "https://www.openstreetmap.org/?mlat=41.0550&mlon=28.8700#map=15/41.0550/28.8700",
+    href: "https://www.google.com/maps?q=41.0550,28.8700",
     gradient: "from-teal-400 via-green-500 to-emerald-600",
     speed: "animate-gradient-fast",
     external: true,
@@ -127,12 +127,14 @@ export default function Contact() {
             className="rounded-2xl overflow-hidden shadow-md border border-neutral-100 min-h-72"
           >
             <iframe
-              src="https://www.openstreetmap.org/export/embed.html?bbox=28.8500%2C41.0400%2C28.8900%2C41.0700&layer=mapnik&marker=41.0550%2C28.8700"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3124.5!2d28.8700!3d41.0550!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAzJzE4LjAiTiAyOMKwNTInMTIuMCJF!5e0!3m2!1str!2str!4v1"
               width="100%"
               height="100%"
               className="w-full h-full min-h-72"
               style={{ border: 0 }}
               loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
               title="Konum"
             />
           </div>

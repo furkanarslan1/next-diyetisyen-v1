@@ -63,7 +63,7 @@ export default function Header() {
           <Mail size={16} />
         </a>
         <a
-          href="https://www.openstreetmap.org/?mlat=41.0550&mlon=28.8700"
+          href="https://www.google.com/maps?q=41.0550,28.8700"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Konum"
