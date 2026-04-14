@@ -30,7 +30,7 @@ const cardStyles = [
 
 export default function Services() {
   return (
-    <section className="w-full bg-neutral-50 py-20 px-6">
+    <section id="hizmetler" className="w-full bg-neutral-50 py-20 px-6">
       {/* Başlık */}
       <div className="max-w-5xl mx-auto text-center mb-14">
         <span className="inline-block text-xs font-semibold tracking-widest text-green-600 uppercase mb-3">

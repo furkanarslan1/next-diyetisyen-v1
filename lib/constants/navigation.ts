@@ -1,18 +1,8 @@
 export const navigations = [
-  {
-    name: "Anasayfa",
-    href: "/",
-  },
-  {
-    name: "Hizmetlerimiz",
-    href: "/hizmetlerimiz",
-  },
-  {
-    name: "Hakkımızda",
-    href: "/hakkimizda",
-  },
-  {
-    name: "İletişim",
-    href: "/iletisim",
-  },
+  { name: "Anasayfa",     href: "/" },
+  { name: "Hizmetler",   href: "/#hizmetler" },
+  { name: "Hakkımızda",  href: "/#hakkimizda" },
+  { name: "Neden Biz",   href: "/#neden-biz" },
+  { name: "Blog",        href: "/blog" },
+  { name: "İletişim",    href: "/#iletisim" },
 ];

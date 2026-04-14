@@ -54,7 +54,10 @@ const contacts = [
 
 export default function Contact() {
   return (
-    <section className="relative w-full bg-neutral-50 py-20 px-6 overflow-hidden">
+    <section
+      id="iletisim"
+      className="relative w-full bg-neutral-50 py-20 px-6 overflow-hidden"
+    >
       <div className="absolute top-0 left-1/4 w-96 h-96 rounded-full bg-green-100/60 blur-3xl animate-blob-1 pointer-events-none" />
       <div className="absolute bottom-0 right-1/4 w-80 h-80 rounded-full bg-emerald-100/50 blur-3xl animate-blob-2 pointer-events-none" />
       <div className="max-w-5xl mx-auto flex flex-col gap-12">
@@ -87,7 +90,7 @@ export default function Contact() {
                   href={contact.href}
                   target={contact.external ? "_blank" : undefined}
                   rel={contact.external ? "noopener noreferrer" : undefined}
-                  className="group flex flex-row md:flex-col items-center md:items-center gap-4 rounded-2xl backdrop-blur-md border border-white/80 p-5 shadow-sm hover:shadow-lg hover:bg-white/80 hover:-translate-y-1 transition-all duration-300 md:text-center"
+                  className="group flex flex-row md:flex-col items-center md:items-center gap-4 rounded-2xl backdrop-blur-md  p-5 hover:shadow-lg hover:bg-white/80 hover:-translate-y-1 transition-all duration-300 md:text-center"
                 >
                   {/* İkon */}
                   {contact.whatsapp ? (

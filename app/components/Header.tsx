@@ -19,24 +19,24 @@ export default function Header() {
     <div className="absolute top-0 left-0 z-20 flex w-full items-center justify-between md:justify-around px-6 h-16 text-white">
       {/* BRAND */}
       <Link href="/" className="flex items-center gap-2">
-        <span className="text-lg font-bold tracking-wide text-white">
+        <span className="text-xl md:text-2xl font-bold tracking-wide bg-linear-to-r from-green-400 via-emerald-300 to-teal-400 bg-clip-text text-transparent animate-gradient">
           Ayşe Yılmaz
         </span>
       </Link>
 
       {/* Desktop: Linkler */}
-      <div className="hidden md:flex items-center gap-6 font-bold">
+      <div className="hidden md:flex items-center gap-6">
         {navigations.map((nav) => (
           <Link
             key={nav.href}
             href={nav.href}
-            className={`relative group text-white text-sm pb-0.5 ${
-              pathname === nav.href ? "border-b border-green-600" : ""
+            className={`relative group text-white text-sm font-medium tracking-wide pb-0.5 ${
+              pathname === nav.href ? "border-b-2 border-green-500" : ""
             }`}
           >
             {nav.name}
             {pathname !== nav.href && (
-              <span className="absolute left-1/2 bottom-0 h-0.5 w-0 bg-green-600 group-hover:w-full group-hover:left-0 transition-all duration-500" />
+              <span className="absolute left-1/2 bottom-0 h-0.5 w-0 bg-green-500 group-hover:w-full group-hover:left-0 transition-all duration-500" />
             )}
           </Link>
         ))}
@@ -102,7 +102,7 @@ export default function Header() {
             {/* Üst: Marka + Kapat */}
             <SheetHeader className="px-6 pt-6 pb-4 border-b border-neutral-200">
               <div className="flex items-center justify-between">
-                <SheetTitle className="text-neutral-900 font-bold tracking-wide text-base">
+                <SheetTitle className="font-bold tracking-wide text-base bg-linear-to-r from-green-400 via-emerald-300 to-teal-400 bg-clip-text text-transparent animate-gradient">
                   Ayşe Yılmaz
                 </SheetTitle>
                 <SheetClose asChild>

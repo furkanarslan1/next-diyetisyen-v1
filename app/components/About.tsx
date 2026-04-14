@@ -68,7 +68,7 @@ function SpecCard({ spec }: { spec: (typeof specializations)[number] }) {
 
 export default function About() {
   return (
-    <section className="w-full bg-neutral-50 py-20 px-6 overflow-hidden">
+    <section id="hakkimizda" className="w-full bg-neutral-50 py-20 px-6 overflow-hidden">
       <div className="max-w-5xl mx-auto flex flex-col gap-12">
         {/* Üst: Başlık + Açıklama */}
         <div className="text-center flex flex-col gap-4">

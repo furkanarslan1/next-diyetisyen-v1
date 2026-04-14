@@ -1,4 +1,5 @@
 import About from "./components/About";
+import BlogPreview from "./components/BlogPreview";
 import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
       <Stats />
       <WhyUs />
       <Contact />
+      <BlogPreview />
       <FAQ />
       <Footer />
     </div>
